@@ -1,4 +1,4 @@
-<h1>🍷 Previsão da Qualidade de Vinhos Tintos com Regressão Linear Múltipla</h1>
+<h1>Previsão da Qualidade de Vinhos Tintos com Regressão Linear Múltipla</h1>
 
 <p>
 Este projeto tem como objetivo aplicar técnicas de <strong>ciência de dados</strong> e <strong>regressão linear múltipla</strong> para prever a <strong>qualidade de vinhos tintos</strong> com base em suas propriedades físico-químicas.
@@ -12,9 +12,8 @@ Utilizando o <a href="https://archive.ics.uci.edu/dataset/186/wine+quality" targ
 A variável alvo <code>quality</code> é uma nota sensorial atribuída por especialistas, variando de 0 a 10. As variáveis preditoras incluem características como acidez, teor alcoólico, pH, entre outras.
 </p>
 
-<hr />
 
-<h2>🔍 Etapas do projeto</h2>
+<h2>Etapas do projeto</h2>
 <ul>
   <li>Importação dos dados com <code>ucimlrepo</code></li>
   <li>Análise exploratória (distribuições, correlações)</li>
@@ -24,9 +23,9 @@ A variável alvo <code>quality</code> é uma nota sensorial atribuída por espec
   <li>Análise gráfica dos resultados (valores previstos vs. reais, distribuição dos resíduos)</li>
 </ul>
 
-<hr />
 
-<h2>📊 Principais resultados</h2>
+
+<h2>Principais resultados</h2>
 <ul>
   <li><strong>MAE:</strong> 0.57</li>
   <li><strong>RMSE:</strong> 0.74</li>
@@ -37,18 +36,18 @@ A variável alvo <code>quality</code> é uma nota sensorial atribuída por espec
 Esses resultados indicam que, embora o modelo capture parte da variabilidade da qualidade, há espaço para melhorias com modelos mais robustos.
 </p>
 
-<hr />
 
-<h2>💡 Próximos passos</h2>
+
+<h2>Próximos passos</h2>
 <ul>
   <li>Testar algoritmos não lineares como Random Forest ou XGBoost</li>
   <li>Aplicar regularização (Ridge, Lasso)</li>
   <li>Ajustar hiperparâmetros e explorar técnicas de engenharia de atributos</li>
 </ul>
 
-<hr />
 
-<h2>📁 Dataset</h2>
+
+<h2>Dataset</h2>
 <ul>
   <li><strong>Fonte:</strong> <a href="https://archive.ics.uci.edu/dataset/186/wine+quality" target="_blank">Wine Quality – UCI Machine Learning Repository</a></li>
   <li><strong>Tipo:</strong> Vinho tinto</li>
